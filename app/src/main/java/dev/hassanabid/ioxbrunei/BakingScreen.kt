@@ -39,11 +39,11 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 
 val images = arrayOf(
     // Image generated using Gemini from the prompt "cupcake image"
-    R.drawable.baked_goods_1,
+    R.drawable.brunei_1,
     // Image generated using Gemini from the prompt "cookies images"
-    R.drawable.baked_goods_2,
+    R.drawable.brunei_2,
     // Image generated using Gemini from the prompt "cake images"
-    R.drawable.baked_goods_3,
+    R.drawable.brunei_3,
 )
 val imageDescriptions = arrayOf(
     R.string.image1_description,
@@ -113,7 +113,7 @@ fun BakingScreen(
                         context.resources,
                         images[selectedImage.intValue]
                     )
-                    bakingViewModel.sendPrompt(bitmap, prompt)
+                    bakingViewModel.sendPrompt(prompt)
                 },
                 enabled = prompt.isNotEmpty(),
                 modifier = Modifier

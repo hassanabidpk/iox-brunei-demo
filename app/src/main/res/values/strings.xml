@@ -3,9 +3,9 @@
     <string name="action_go">Go</string>
     <string name="baking_title">Baking with Gemini</string>
     <string name="label_prompt">Prompt</string>
-    <string name="prompt_placeholder">Provide a recipe for the baked goods in the image</string>
-    <string name="image1_description">Cupcake</string>
-    <string name="image2_description">Cookies</string>
-    <string name="image3_description">Cake</string>
+    <string name="prompt_placeholder">Describe the image. Tell me location and country</string>
+    <string name="image1_description">Brunei 1</string>
+    <string name="image2_description">Brunei 2</string>
+    <string name="image3_description">Brunei 3</string>
     <string name="results_placeholder">(Results will appear here)</string>
 </resources>

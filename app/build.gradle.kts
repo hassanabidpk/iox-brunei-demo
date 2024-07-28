@@ -56,6 +56,7 @@ dependencies {
     implementation(libs.generativeai)
     // import firebase bom
     implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
+    implementation("com.google.firebase:firebase-vertexai:16.0.0-beta03")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
